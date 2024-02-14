@@ -21,7 +21,7 @@ class BankAccount:
         print(f"Balance: ${self.__balance}")
 
 # Create an account object
-account = BankAccount("John Doe", 500.00)
+account = BankAccount("Ahmed", 500.00)
 
 # Trying to directly access private attribute throws an error
 # print(account.__balance)  # AttributeError: 'BankAccount' object has no attribute '__balance'
